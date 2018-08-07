@@ -149,7 +149,7 @@ Add an additional volume – this requires you to do some system admin work on y
     - Next, find out what file system is being used on the boot drive, let’s use the same:
 
       ```bash
-      $ mount | grep "\^/dev"
+      $ mount | grep "^/dev"
       ```
     - This should show you something like:
 
